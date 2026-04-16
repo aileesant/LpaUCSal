@@ -8,18 +8,18 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		//Escreva um programa que leia dois números A e B e determine se A é múltiplo de B.
 		
-		int A, B;
+		int n1, n2;
 
-		System.out.println("Digite A:");
-		A = sc.nextInt();
+		System.out.println("Digite o primeiro número:");
+		n1 = sc.nextInt();
 
-		System.out.println("Digite B:");
-		B = sc.nextInt();
+		System.out.println("Digite o segundo número:");
+		n2 = sc.nextInt();
 
-		if (A % B == 0) {
-		    System.out.println("A é múltiplo de B");
+		if (n1 % n2 == 0) {
+		    System.out.println("o número " + n1 + " é múltiplo de " + n2);
 		} else {
-		    System.out.println("A NÃO é múltiplo de B");
+		    System.out.println("o número " + n1 + " NÃO é múltiplo de " + n2);
 		}
 		
 		
